@@ -2,7 +2,7 @@ imports:
   - .mycurrency
 ---
 code: |
-  foo = 23
+  foo = 23 # at 17:32
 ---
 mandatory: True
 question: |
