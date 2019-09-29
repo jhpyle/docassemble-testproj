@@ -3,6 +3,7 @@ imports:
 ---
 code: |
   foo = 23 # at 17:32
+  # manual edit on GitHub
 ---
 mandatory: True
 question: |
