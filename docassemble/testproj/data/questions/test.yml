@@ -1,19 +1,12 @@
-features:
-  css: my-styles.css
----
-modules:
-  - docassemble.base.util
----
 imports:
-  - docassemble.base.legal
+  - .mycurrency
+---
+code: |
+  foo = 23
 ---
 mandatory: True
 question: |
-  A test of CSS2
-subquestion: |
-  [click me](${ my_doc.url_for(inline=True) }) 
----
-attachment:
-  variable name: my_doc
-  content: |
-    Hello world!
+  You owe me ${ currency(foo) }.
+fields:
+  - SSN: your_ssn
+    datatype: ssn
