@@ -11,3 +11,6 @@ question: |
 fields:
   - SSN: your_ssn
     datatype: ssn
+---
+code: |
+  bar = None
